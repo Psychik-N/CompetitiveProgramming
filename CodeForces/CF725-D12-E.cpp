@@ -1,9 +1,9 @@
 /*
 	Idea : 
-	1) Algorithm takes at max O(sqrt(c)) steps to fill a bag of size c. 
-	2) Need to create a "prev" array, where prev[i] = max denomination coin less than i that is present.
-	3) If we can give a solution with 2 or more coins, then we can give the solution with 1 coin whose denomination will be the sum of
-	-- denomination of all the coins.
+	* Algorithm takes at max O(sqrt(c)) steps to fill a bag of size c. 
+	* Need to create a "prev" array, where prev[i] = max denomination coin less than i that is present.
+	* If we can give a solution with 2 or more coins, then we can give the solution with 1 coin whose denomination will be the sum of
+	- denomination of all the coins.
 */
 #pragma GCC target ("avx2")
 #pragma GCC optimization ("O3")
