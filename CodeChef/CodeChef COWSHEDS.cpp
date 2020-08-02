@@ -1,3 +1,10 @@
+/*
+	Problem Link :
+	* https://www.codechef.com/problems/COWSHEDS
+	
+	Idea :
+	* https://discuss.codechef.com/t/cowsheds-editorial/70354
+*/
 #pragma GCC target ("avx2")
 #pragma GCC optimization ("O3")
 #pragma GCC optimization ("unroll-loops")
