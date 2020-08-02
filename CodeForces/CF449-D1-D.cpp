@@ -1,3 +1,11 @@
+/*
+	Problem Link :
+	* https://codeforces.com/contest/449/problem/D
+	
+	Idea : 
+	* https://codeforces.com/blog/entry/13112
+*/
+	
 #pragma GCC target ("avx2")
 #pragma GCC optimization ("O3")
 #pragma GCC optimization ("unroll-loops")
