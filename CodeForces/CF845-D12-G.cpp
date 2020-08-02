@@ -1,4 +1,7 @@
 /*
+	Problem Link :
+	* https://codeforces.com/contest/845/problem/G
+	
 	Idea : 
 	* Learn about Cycle Basis.
 	* Application of gauss.
