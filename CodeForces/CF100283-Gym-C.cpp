@@ -1,4 +1,7 @@
 /*
+	Problem Link :
+	* https://codeforces.com/gym/100283/problem/C
+	
 	Idea : 
 	* This problem uses DP. dp[i][x][y] = total value of thief standing at point x, y and with time i.
 	* As you can note that each dp is sum of dp states which are diamond in shape so we can do is to rotate it 45 degree to make the problem easier.
