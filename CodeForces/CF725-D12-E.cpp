@@ -1,4 +1,7 @@
 /*
+	Problem Link :
+	* https://codeforces.com/contest/725/problem/E
+	
 	Idea : 
 	* Algorithm takes at max O(sqrt(c)) steps to fill a bag of size c. 
 	* Need to create a "prev" array, where prev[i] = max denomination coin less than i that is present.
