@@ -1,4 +1,7 @@
 /*
+	Problem Link :
+	* https://atcoder.jp/contests/abc174/tasks/abc174_f
+	
 	Idea :
 	* Solve queries offline.
 	* Only add the leftmost occurance of the color to BIT. Now suppose if we move the left pointer of query forward, we will then remove the current
