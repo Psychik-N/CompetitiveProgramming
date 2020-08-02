@@ -1,4 +1,7 @@
 /*
+	Problem Link :
+	* https://codeforces.com/contest/1101/problem/F
+	
 	Idea : 
 	* https://codeforces.com/blog/entry/64483
 */
