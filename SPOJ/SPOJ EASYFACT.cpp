@@ -1,4 +1,7 @@
 /*
+	Problem Link :
+	* https://www.spoj.com/problems/EASYFACT/
+	
 	Idea :
 	* let N! = (a+1) + (a+2) ... (a+l). Applying AP formula 2*N! = (l*(2*a+l-1)), where l and (2*a+l-1) have different parity. So number of these pair
 	- combination satisfying these properties will be equal to number of odd divisors of N!.
