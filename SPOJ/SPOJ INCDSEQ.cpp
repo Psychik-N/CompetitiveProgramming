@@ -1,4 +1,7 @@
 /*
+	Problem Link :
+	* https://www.spoj.com/problems/INCDSEQ/
+	
 	Idea :
 	* As the array length N <= 10000, So it can have at max N distinct element. So use cordinate compression to convert the element magnitude between 1 to N.
 	* Now for each element compute the number of distinct sequence of length 1, 2, ..., K, using dp.
