@@ -4,16 +4,21 @@
 	
 	Idea :
 	* Precalculate the power of 10 mod m.
+	
 	* We will do this problem using dp. dp[i][j][k] | i --> ith position, j --> sum to form, k --> required modulo, dp[i][j][k] --> count of numbers
 	- satisfying the condition.
+	
 	* Transition :
 	- For dp[i][j][k], you have 10 choices from 0 to 9.
 	- Suppose we choose 3, then state it will visit will be dp[i-1][j-3][(k-((pow10[pos] * 3) % m) + m) % m];
 	- One thing to note is that we will cap the count till 1e18 as k is not greater than 1e18.
+	
 	* Now we have to construct the solution for each query. It can be done in O(count of digit) per query. Where count of digit <= 200.
+	
 	* As we have to create the kth number then for each position(iterate for position from 200 to 1) iterate from 0 to 9 and get total 
 	- count which satisfy the condition after assigning ith pos to 0, 1, 2, ... . Now do the cummalative sum of count from 0 to 9 when 
 	- cummalative_count >= K, assign that digit to the ith position. and go to the i-1 position(make sure to modify the sum and modulo).
+	
 	* Note!! if you are assigning digit j to position i, then you have to modify the K = K-cummalative_count_till(j-1).
 */
 #include <bits/stdc++.h>
