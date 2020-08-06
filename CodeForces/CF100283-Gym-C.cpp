@@ -4,8 +4,11 @@
 	
 	Idea : 
 	* This problem uses DP. dp[i][x][y] = total value of thief standing at point x, y and with time i.
+	
 	* As you can note that each dp is sum of dp states which are diamond in shape so we can do is to rotate it 45 degree to make the problem easier.
+	
 	* Rotation can be done by (x, y) ---> (x+y, x-y).
+	
 	* Apply the concept of 2D prefix to compute dp[i][x][y] in O(1).
 */
 #pragma GCC target ("avx2")
