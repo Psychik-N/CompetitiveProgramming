@@ -4,6 +4,7 @@
 	
 	Idea : 
 	* Learn about Cycle Basis.
+	
 	* Application of gauss.
 */
 #pragma GCC target ("avx2")
