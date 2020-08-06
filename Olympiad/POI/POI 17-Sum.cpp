@@ -10,7 +10,7 @@
 	
 	* Transition :
 	- For dp[i][j][k], you have 10 choices from 0 to 9.
-	- Suppose we choose 3, then state it will visit will be dp[i-1][j-3][(k-((pow10[pos-1] * 3) % m) + m) % m];
+	- Suppose we choose 3, then state it will visit will be dp[i-1][j-3][(k-((pow10[pos-1] * 3) % m) + m) % m].
 	- One thing to note is that we will cap the count till 1e18 as k is not greater than 1e18.
 	
 	* Now we have to construct the solution for each query. It can be done in O(count of digit) per query. Where count of digit <= 200.
