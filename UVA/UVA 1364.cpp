@@ -4,9 +4,12 @@
 	
 	Idea :
 	* Read about Biconnected Component and Bipartite Graph.
+	
 	* Form the graph of edges which is not present and find its BCC.
+	
 	* Now for each BCC, if the BCC is Bipartite it means the cycle basis of the bcc will be of even length and there is no way to put any node in the graph
 	- in odd cycle.
+	
 	* If the BCC is not bipartite graph, then we are sure to find at least one odd cycle(because the graph is BCC). So for each node either it will be either
 	- in odd cycle and if it is in even cycle we can make it in odd cycle using linear combination of basis.
 */
