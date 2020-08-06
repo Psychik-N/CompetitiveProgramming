@@ -4,7 +4,9 @@
 	
 	Idea :
 	* As the array length N <= 10000, So it can have at max N distinct element. So use cordinate compression to convert the element magnitude between 1 to N.
+	
 	* Now for each element compute the number of distinct sequence of length 1, 2, ..., K, using dp.
+	
 	* Let compressed weight of a[i] = x. dp[x][i] = dp[1][i-1] + dp[2][i-1] + ... + dp[x-1][i-1]. This quantity can be calculated efficiently using
 	- Binary Index Tree or Segment Tree.
 */
