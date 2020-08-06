@@ -4,6 +4,7 @@
 	
 	Idea :
 	* We will solve this problem using DP. dp[i][node] = maximum value of path we can get after selecting i castle in subtree of "node" excluding "node".
+	
 	* Now suppose we want to pick i castle in subtree of "node". Now for its child "U" lets suppose we choose j castle (j <= i). Then the path (node --- U).
 	- will add to the answer (2 * min(j, K+1-j)). As we can alternately choose castle from subtree of "U" and outside of subtree of "U" and it will be 
 	- the optimal way to order the given selected castle.
