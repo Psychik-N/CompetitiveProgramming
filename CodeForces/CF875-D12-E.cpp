@@ -4,11 +4,15 @@
 	
 	Idea :
 	* We can see the function of maximum length is monotonic function. So if we can do delivery with maxlength "x", then we can do it with "x+1" also.
+	
 	* We will iterate through the order, we know that at ith delivery one co-ordinate is fixed i.e. Xi, and for other cordinate we will maintain a set.
+	
 	* Now transition from ith delivery to i+1th delivery will be as, either the guy standing at ith delivery point will go to i+1th point or guy standing
 	- at one of the points in the set go to it. 
+	
 	* In case of ith guy goes, then we will remove all the points which are less than Xi+1-maxLen will be removed and points more than Xi+1+maxLen will 
 	- be removed.
+	
 	* In case previous guy goes, then we will check if abs(Xi-Xi+1) <= maxLen, if this condition satisfies add point Xi to the set.
 */
 #pragma GCC target ("avx2")
