@@ -4,7 +4,7 @@
 	
 	Idea :
 	* Precalculate the power of 10 mod m.
-	* We will do this problem using dp. dp[i][j][k] represents i --> ith position, j --> sum to form, k --> required modulo. dp[i][j][k] --> count of numbers
+	* We will do this problem using dp. dp[i][j][k] | i --> ith position, j --> sum to form, k --> required modulo, dp[i][j][k] --> count of numbers
 	- satisfying the condition.
 	* Transition :
 	- For dp[i][j][k], you have 10 choices from 0 to 9.
