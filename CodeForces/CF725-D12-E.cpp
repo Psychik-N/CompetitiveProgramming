@@ -3,8 +3,10 @@
 	* https://codeforces.com/contest/725/problem/E
 	
 	Idea : 
-	* Algorithm takes at max O(sqrt(c)) steps to fill a bag of size c. 
+	* Algorithm takes at max O(sqrt(c)) steps to fill a bag of size c.
+	
 	* Need to create a "prev" array, where prev[i] = max denomination coin less than i that is present.
+	
 	* If we can give a solution with 2 or more coins, then we can give the solution with 1 coin whose denomination will be the sum of
 	- denomination of all the coins.
 */
