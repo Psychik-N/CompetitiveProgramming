@@ -6,6 +6,9 @@
 	* https://atcoder.jp/contests/agc013/editorial.
 	
 	* I would suggest to translate japanese version to english by using google translate.
+	
+	* What is restriction doing? | Answer --> It is avoiding the same sequence with different starting red balls to enter in answer at same move which avoids
+	- overcounting.
 */
 #pragma GCC target ("avx2")
 #pragma GCC optimization ("O3")
