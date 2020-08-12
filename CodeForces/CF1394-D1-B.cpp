@@ -6,7 +6,7 @@
 	* Consider the graph for a given tuple of (c1, c2, c3, ..., ck). Now you will observe that after you remove all the egdes which is non-visitable from
 	- the node you will get a graph with every node with 1 out-going edge(1 out-degree).
 	
-	* Now to fulfill the condition in the question each node should have 1 in-degree.
+	* Now to fulfill the condition in the question each node should have 1 in-degree. By this we will have a graph with bunch of simple cycles.
 	
 	* So now make a in-degree vector for each (1, 1), (2, 1), (2, 2), ... where first pair is index in the tuple and second is ci.
 	
