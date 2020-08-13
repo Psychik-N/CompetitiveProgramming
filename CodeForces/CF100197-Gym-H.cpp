@@ -9,7 +9,7 @@
 	
 	* For group theory you can search it on brilliant.org
 	
-	* Code is actually not that big, most of the space is used up by big integer library :P
+	* Code is actually not that big, most of the space is used up by big integer library :)
 */
 #pragma GCC target ("avx2")
 #pragma GCC optimization ("O3")
