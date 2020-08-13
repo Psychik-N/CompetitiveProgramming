@@ -8,6 +8,8 @@
 	* You can learn about lemma's here = https://cp-algorithms.com/combinatorics/burnside.html
 	
 	* For group theory you can search it on brilliant.org
+	
+	* Code is actually not that big, most of the space is used up by big integer library :P
 */
 #pragma GCC target ("avx2")
 #pragma GCC optimization ("O3")
