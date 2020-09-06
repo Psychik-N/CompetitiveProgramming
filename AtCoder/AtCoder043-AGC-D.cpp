@@ -1,3 +1,11 @@
+/*
+	Problem Link : 
+	* https://atcoder.jp/contests/agc043/tasks/agc043_d
+	
+	Idea : 
+	* https://atcoder.jp/contests/agc043/editorial
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
