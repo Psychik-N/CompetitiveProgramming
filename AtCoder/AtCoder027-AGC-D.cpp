@@ -1,3 +1,10 @@
+/*
+	Problem Link :
+	* https://atcoder.jp/contests/agc027/tasks/agc027_d
+	
+	Idea :
+	* https://atcoder.jp/contests/agc027/editorial
+*/
 #pragma GCC target ("avx2")
 #pragma GCC optimization ("O3")
 #pragma GCC optimization ("unroll-loops")
